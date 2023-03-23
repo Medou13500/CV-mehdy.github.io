@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    padding:0;
+}
+.partie-bleu{
+    background-color: aqua;
+    width:20%;
+    height: 800vh;
+}
+.photo{
+    border-radius: 50%;
+   height:200px;
+   margin-left: 5%;
+}
+li{
+    list-style: none;
+}
+.profil{
+    margin-left: 55px;
+}
+.maitrise{
+    margin-left: 35px;
+}
+.logiciel{
+    margin-left: 35px;
+}
+.hobbie{
+    margin-left: 35px;
+}
+.titre{
+    text-align: center;
+}

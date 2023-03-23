@@ -1,0 +1,277 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.partie-bleu{
+    background-color: aqua;
+    width: 20%;
+    height: 150vw;
+    position: fixed;
+    top:0;
+    
+}
+
+.photo{
+    border-radius: 50%;
+    height: 150px;
+}
+li{
+    list-style: none;
+}
+.titre{
+    text-align: center;
+}
+
+
+@media screen and (max-width:1024px){
+    .info{
+        margin-right: %;
+    }
+    .partie-bleu{
+        height: 150vh;
+        width: 20%;
+    }
+    .profil,.maitrise,.logiciel,.hobbie{
+        text-align: center;
+    }
+    .photo{
+        margin-left: 20%;
+    }
+}
+@media screen and ( max-width:768px) and (min-width:1024px){
+    .partie-bleu{
+        width: 30%;
+    }
+    .photo{
+        margin-left: 60px;
+    }
+}
+@media screen and (min-width: 425px) and (max-width:1024px) {
+    .info,.use,.enjoy,.master{
+        font-size: 15px;
+    }
+    .partie-bleu{
+        width: 52%;
+    }
+    .formation{
+        margin-left: 220px;
+    }
+    .pepe{
+        margin-left: 210px;
+        font-size:12px;
+    }
+    .baca{
+        margin-left: 210px;
+        font-size:12px;
+    }
+    .superieur{
+        margin-left: 210px;
+        font-size: 12px;
+    }
+    .ibcegos{
+        margin-left: 209px;
+        font-size: 12px;
+    }
+    .experience{
+        margin-left: 210px;
+        
+    }
+}
+
+@media screen and (max-width:375px) and (min-width:320px)  {
+    .partie-bleu{
+        width: 20%;
+    }
+    .nom{
+        margin-left: 190px;
+    }
+    .spitch{
+        margin-left: 199px;
+        font-size: 12px;
+    }
+    .vecu{
+        text-align: center;
+    }
+    .principal{
+        margin-left: 9%;
+        margin-right: 2%;
+    }
+   
+    
+}
+@media screen and  (min-width:768px) and (max-width:1024px) {
+
+    .nom,.spitch{
+        padding-left: 18%;
+    }
+    .formation{
+        padding-left: 30%;
+    }
+    .bep{
+        margin-left: 20%;
+        padding-left: 15px;
+    }
+    .photo{
+        margin-left: 35%;
+    }
+    .baca{
+        padding-left: 22%;
+    }
+    .superieur{
+        margin-left: 50%;
+    }
+    .ibcegos{
+        padding-left: 22%;
+    }
+    .vecu{
+        padding-left:45%
+    }
+    .spec{
+        padding-left: 30%;
+    }
+    .stage2{
+        padding-left: 30%;
+    }
+    .stage3{
+        padding-left: 30%;
+    }
+    .stage4{
+        padding-left: 30%;
+    }
+    .apprentissage{
+        padding-left: 30%;
+    }
+   
+
+}
+@media screen and (min-width:425px) and (max-width:768px) {
+    .partie-bleu{
+        width:50%;
+    }
+    .formation{
+        margin-left: 280px;
+    }
+    .pepe{
+        margin-left: 230px;
+    }
+    .baca{
+        margin-left: 230px;
+        font-size: 12px;
+    }
+    .superieur{
+        padding-left: 5%;
+        font-size: 12px; 
+    }
+    .ibcegos{
+        margin-left: 230px;
+        font-size: 12px;
+    }
+    .vecu{
+        margin-left: 50px;
+    }
+    .nom{
+        margin-left: 210px;
+    }
+    .spitch{
+        margin-left: 220px;
+        font-size: 12px;
+    }
+    .spec{
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .stage2{
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .stage3{
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .stage4{
+       font-size: 12px;
+        margin-left: 20px;
+      }
+    .apprentissage{
+        font-size: 12px;
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width:320px)  and (max-width:375px){
+    .partie-bleu{
+        width: 55%;
+    }
+    .photo{
+        height: 120px;
+        margin-left: 50px;
+    }
+    .info,.master,.use,.enjoy,.titre{
+        padding-left: 5%;
+        font-size: small;
+    }
+    
+    .use {
+        padding-left: 5%;
+    }
+    .enjoy{
+        padding-left: 5%;
+    }
+    .titre{
+        margin-left: 5%;
+        font-size: 12px;
+    }
+    .formation{
+        margin-left: 70%;
+        font-size: 15px;
+    }
+    .spitch,.nom{
+        margin-left: 5%;
+        padding-left:45%;
+    }
+
+    .pepe{
+        margin-left: 60%;
+        margin-right: 10px;
+        font-size: 12px;
+        margin-bottom: 5%;
+    }
+    .baca{
+        margin-left: 60%;
+        font-size: 12px;
+        margin-bottom: 5%;
+    }
+    .superieur{
+        margin-left: 60%;
+        font-size: 12px;
+        margin-bottom: 5%;
+    }
+    .ibcegos{
+        margin-left: 60%;
+        font-size: 12px;
+    }
+    .vecu{
+        font-size: 15px;
+        margin-left: 50%;
+    }
+    .spec{
+        margin-left: 60%;
+        font-size: 12px;
+    }
+    .stage2{
+        margin-left: 60%;
+        font-size: 12px;
+    }
+    .mairie2{
+        margin-left: 60%;
+        font-size: 12px;
+    }
+    .conseil{
+        margin-left: 60%;
+        font-size: 12px;
+    }
+    .sup{
+        margin-left: 60%;
+        font-size: 12px;
+    }
+   
+  @media screen 
